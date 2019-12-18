@@ -101,8 +101,8 @@ def ellipse_batch(space, number_of_images,number_of_elipses):
           
     return images 
 
-numTrain = 10 # CHANGE HERE TRAINING SET SIZE
-numTest = 10 # CHANGE HERE TEST SET SIZE
+numTrain = 125000 # CHANGE HERE TRAINING SET SIZE
+numTest = 1000 # CHANGE HERE TEST SET SIZE
 
 class RandomEllipsoids(Dataset):
     def __init__(self,space,num_ellipsoids,diag,train=True,transforms=None):
