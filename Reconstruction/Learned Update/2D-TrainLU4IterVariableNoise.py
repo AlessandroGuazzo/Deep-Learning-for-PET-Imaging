@@ -785,5 +785,5 @@ if save:
             'model_state_dict3': Unet3.state_dict(),
             'model_state_dict4': Unet4.state_dict(),
             'optimizer_state_dict': optimizer.state_dict(),
-                }, 'LearnedUpdateMemory4Iter.tar')
+                }, 'LearnedUpdate4Iter.tar')
     print('Model Saved!!!')
