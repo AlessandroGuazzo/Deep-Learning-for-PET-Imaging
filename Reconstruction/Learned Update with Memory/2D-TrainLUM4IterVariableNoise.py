@@ -917,7 +917,10 @@ save = False
 
 if save:
     torch.save({
-            'model_state_dict': Unet.state_dict(),
+            'model_state_dict1': Unet1.state_dict(),
+            'model_state_dict2': Unet2.state_dict(),
+            'model_state_dict3': Unet3.state_dict(),
+            'model_state_dict4': Unet4.state_dict(),
             'optimizer_state_dict': optimizer.state_dict(),
                 }, 'LearnedUpdateMemory4Iter.tar')
     print('Model Saved!!!')
