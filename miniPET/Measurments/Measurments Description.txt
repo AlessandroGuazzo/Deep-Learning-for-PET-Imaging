@@ -1,0 +1,74 @@
+P1M1
+ellipsoid -> 3,1 Mbq/ml 
+sphere -> 2,3 Mbq/ml
+cube -> 3,1 Mbq/ml
+Background -> 0,2 Mbq/ml
+
+P1M2
+ellipsoid -> 1 Mbq/ml
+sphere -> 2,5 Mbq/ml
+cube -> 1 Mbq/ml
+Background -> 0,12 Mbq/ml
+
+P1M3
+ellipsoid -> 2 Mbq/ml
+sphere -> 0,8 Mbq/ml
+cube -> 0,8 Mbq/ml
+Background -> 0,3 Mbq/ml
+
+P1M3
+ellipsoid -> empty
+sphere -> empty
+cube -> empty
+Background -> 0,3 Mbq/ml
+
+P2M1
+ellipsoid -> 1,5 Mbq/ml
+sphere -> 0,3 Mbq/ml
+parallelepiped -> 0,3 Mbq/ml
+Background -> 0,08 Mbq/ml
+
+P2M2
+ellipsoid -> 0,9 Mbq/ml
+sphere -> 0,6 Mbq/ml
+parallelepiped -> 0,6 Mbq/ml
+Background -> 0,2 Mbq/ml
+
+P2M4
+ellipsoid -> 1,2 Mbq/ml
+sphere -> 0,5 Mbq/ml
+parallelepiped -> 1,2 Mbq/ml
+Background -> 0,2 Mbq/ml
+
+P2M5
+ellipsoid -> empty 
+sphere -> empty
+parallelepiped -> empty
+Background -> 0,1 Mbq/ml
+
+P2M6
+Background -> 0,2 Mbq/ml
+
+P3M1
+ellipsoid -> 1,3 Mbq/ml
+sphere -> 2,7 Mbq/ml
+ellipsoid -> 1,3 Mbq/ml
+Background -> 0,09 Mbq/ml
+
+P3M2
+ellipsoid -> 1,1 Mbq/ml
+sphere -> 0,4 Mbq/ml
+ellipsoid -> 1,1 Mbq/ml
+Background -> 0,07 Mbq/ml
+
+P3M3
+ellipsoid -> 0,5 Mbq/ml
+sphere -> 0,2 Mbq/ml
+ellipsoid -> 0,5 Mbq/ml
+Background -> 0,05 Mbq/ml
+
+P3M4
+ellipsoid -> empty
+sphere -> empty
+ellipsoid -> empty
+Background -> 0,2 Mbq/ml
