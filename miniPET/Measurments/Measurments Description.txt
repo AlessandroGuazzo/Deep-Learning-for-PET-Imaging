@@ -16,11 +16,23 @@ sphere -> 0,8 Mbq/ml
 cube -> 0,8 Mbq/ml
 Background -> 0,3 Mbq/ml
 
-P1M3
+P1M4
 ellipsoid -> empty
 sphere -> empty
 cube -> empty
 Background -> 0,3 Mbq/ml
+
+P1M5
+ellipsoid -> 2,1 Mbq/ml
+sphere -> 2,9 Mbq/ml
+cube -> 2,9 Mbq/ml
+Background -> 0,5 Mbq/ml
+
+P1M6
+ellipsoid -> 1,3 Mbq/ml
+sphere -> 1,7 Mbq/ml
+cube -> 1,7 Mbq/ml
+Background -> 0,2 Mbq/ml
 
 P2M1
 ellipsoid -> 1,5 Mbq/ml
@@ -72,3 +84,16 @@ ellipsoid -> empty
 sphere -> empty
 ellipsoid -> empty
 Background -> 0,2 Mbq/ml
+
+P3M5
+ellipsoid -> 1,4 Mbq/ml
+sphere -> 0,9 Mbq/ml
+ellipsoid -> 0,9 Mbq/ml
+Background -> 0,2 Mbq/ml
+
+P3M6
+ellipsoid -> 0,7 Mbq/ml
+sphere -> 0,4 Mbq/ml
+ellipsoid -> 0,4 Mbq/ml
+Background -> 0,1 Mbq/ml
+Border -> 0,3 Mbq/ml
