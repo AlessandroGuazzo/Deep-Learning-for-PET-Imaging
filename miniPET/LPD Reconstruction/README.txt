@@ -9,3 +9,5 @@ IN THIS FOLDER...
 3LPDHybrid.tar -> a.tar file with the parameters of the best performing model trained with the Hybrid approach
 
 3LPDOnly.tar -> a .tar file with the parameters of the best performing model trained with the miniPET only approach
+
+LearnedPrimalDual3IterationsEllipses.tar -> a .tar file with the parameters of the model trained only with synthetic data
