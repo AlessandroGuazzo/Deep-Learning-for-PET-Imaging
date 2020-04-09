@@ -169,8 +169,8 @@ dset_test=RandomEllipsoids(pet_projector.domain, num_ellipsoids=np.random.poisso
 
 
 batch_size = 10 # CHANGE HERE batch size
-train_loader = torch.utils.data.DataLoader(dset_train, numTrain, shuffle=True) 
-test_loader = torch.utils.data.DataLoader(dset_test, numTest, shuffle=True) 
+train_loader = torch.utils.data.DataLoader(dset_train, batch_size, shuffle=True) 
+test_loader = torch.utils.data.DataLoader(dset_test, batch_size, shuffle=True) 
 
 # INITIALIZATION FUNCTION
 
