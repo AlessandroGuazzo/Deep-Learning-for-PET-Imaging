@@ -158,6 +158,22 @@ if __name__ == "__main__":
     transformations = transforms.Compose([transforms.ToTensor()]) 
     random_ellipsoids =         RandomEllipsoids(pet_projector.domain, num_ellipsoids=np.random.poisson(15), diag=100, train=True, transforms=transformations)
 
+# MLEM RECONSTRUCTION OPERATORS DEFINITIONS
+
+class MLEM(odl.operator.Operator):
+    def __init__(self, op, niter):
+        super(MLEM, self).__init__(domain=pet_projector.range, range=pet_projector.domain, linear=True) 
+        self.op = op 
+        self.niter = niter 
+    
+    def _call(self, data):
+        reco = self.range.one()
+        odl.solvers.iterative.statistical.mlem(self.op, reco, data, niter=self.niter) 
+        return reco
+
+mlem_op_net=MLEM(pet_projector,niter=1) # MLEM operator. 1 iteration
+mlem_op_net_mod=OperatorAsModule(mlem_op_net)     
+    
 # GENERATE TRAINING AND TEST ELLIPSES DATASETS
 
 trafo = transforms.Compose([transforms.ToTensor(),])
